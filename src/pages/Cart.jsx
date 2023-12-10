@@ -56,7 +56,7 @@ const Cart = () => {
               </p>
 
               <div className='buy__btn w-100'>
-                <Link to='/checkout'>Checkout</Link>
+                <Link to='/Checkout'>Checkout</Link>
               </div>
 
               <div className='buy__btn w-100 mt-3'>
