@@ -4,15 +4,12 @@ import { toast } from 'react-toastify'
 
 import './header.css'
 
-// import { motion } from 'framer-motion'
-
 import logo from '../../assets/images/eco-logo.png'
 import userIcon from '../../assets/images/user-icon.png'
 
 import { Container, Row } from 'reactstrap'
 import { useSelector } from 'react-redux'
 import useAuth from '../../custom-hooks/useAuth'
-// import { Link } from 'react-router-dom'
 import { signOut } from 'firebase/auth'
 import { auth } from '../../firebase.config'
 
@@ -119,11 +116,6 @@ const Header = () => {
               </span>
 
               <div className='profile'>
-                {/* <motion.img
-                  whileTap={{ scale: 1.2 }}
-                  src={currentUser ? currentUser.photoURL : userIcon}
-                  alt=''
-                /> */}
                 <span className='user-email'>
                   <p>
                     {currentUser ? (

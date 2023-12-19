@@ -59,12 +59,6 @@ const Footer = () => {
                   <p>B:13, Akhuwat Nagar Society, Sukkur</p>
                 </ListGroupItem>
 
-                {/* <ListGroupItem clasName='ps-0 border-0 d-flex align-items-center gap-2'>
-                  <span>
-                    <i className='ri-phone-line'></i>
-                  </span>
-                  <p>+081234567890</p>
-                </ListGroupItem> */}
 
                 <ListGroupItem clasName='ps-0 border-0'>
                   <span>

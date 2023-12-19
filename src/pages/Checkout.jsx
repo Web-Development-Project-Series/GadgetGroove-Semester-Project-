@@ -99,13 +99,6 @@ const Checkout = () => {
                             and bank transfer to the company's account <br />
                             this will cover GST, insurance and delivery
                           </p>
-                          {/* <p className='fs-6 mt-2 text-center'>BSB: 0137111</p>
-                          <p className='fs-6 mt-2 text-center'>
-                            Account Number: 436860319
-                          </p>
-                          <p className='fs-6 mt-2 text-center'>
-                            Bank Name: Anz
-                          </p> */}
                           <button className='buy__btn w-100 mt-3'>
                             <a
                               target='_blank'
