@@ -51,6 +51,8 @@ const Login = () => {
             ) : (
               <Col lg='6' className='m-auto text-center'>
                 <h3 className='fw-bold mb-4'>Login</h3>
+                <h3 className='fw-bold mb-4'>use guest@gmail.com </h3>
+                <h3 className='fw-bold mb-4'> password "guest123"</h3>
 
                 <Form className='auth__form' onSubmit={signIn}>
                   <FormGroup className='form__group'>

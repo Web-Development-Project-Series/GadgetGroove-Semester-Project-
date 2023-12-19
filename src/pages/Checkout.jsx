@@ -92,7 +92,7 @@ const Checkout = () => {
                         <div>
                           <h2 className='fs-4 text-center'>Payment</h2>
                           <p className='fs-6 mt-2 text-center'>
-                            Amount: <span>PKR{totalAmount*280}</span>
+                            Amount: <span>PKR{totalAmount}</span>
                           </p>
                           <p className='fs-6 mt-2 text-center'>
                             Payment is made through direct deposit <br />
