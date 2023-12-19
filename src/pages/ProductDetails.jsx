@@ -109,7 +109,7 @@ const ProductDetails = () => {
                 </div>
 
                 <div className='d-flex align-items-center gap-5'>
-                  <span className='product__price'>$ {price}</span>
+                  <span className='product__price'>PKR {price}</span>
                   <span>Category: {category.toUpperCase()}</span>
                 </div>
                 <p className='mt-3'>{shortDesc}</p>
@@ -133,13 +133,13 @@ const ProductDetails = () => {
             <Col lg='12'>
               <div className='tab__wrapper d-flex align-items-center gap-5'>
                 <h6
-                  className={`${tab === 'desc' ? 'active__tab' : ''}`}
+                  className={`PKR{tab === 'desc' ? 'active__tab' : ''}`}
                   onClick={() => setTab('desc')}
                 >
                   Description
                 </h6>
                 <h6
-                  className={`${tab === 'rev' ? 'active__tab' : ''}`}
+                  className={`PKR{tab === 'rev' ? 'active__tab' : ''}`}
                   onClick={() => setTab('rev')}
                 >
                   Reviews ({reviews.length})

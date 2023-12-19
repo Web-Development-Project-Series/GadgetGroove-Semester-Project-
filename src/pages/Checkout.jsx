@@ -74,14 +74,14 @@ const Checkout = () => {
                   Total Qty: <span>{totalQty} items</span>
                 </h6>
                 <h6>
-                  Subtotal: <span>${totalAmount}</span>
+                  Subtotal: <span>PKR {totalAmount}</span>
                 </h6>
                 <h6>
                   Shipping: <br />
                   free shipping<span>0</span>
                 </h6>
                 <h4>
-                  Total Cost: <span>${totalAmount}</span>
+                  Total Cost: <span>PKR {totalAmount}</span>
                 </h4>
                 <div>
                   <input type='button' value='Checkout' onClick={togglePopup} />
@@ -92,7 +92,7 @@ const Checkout = () => {
                         <div>
                           <h2 className='fs-4 text-center'>Payment</h2>
                           <p className='fs-6 mt-2 text-center'>
-                            Amount: <span>${totalAmount}</span>
+                            Amount: <span>PKR{totalAmount*280}</span>
                           </p>
                           <p className='fs-6 mt-2 text-center'>
                             Payment is made through direct deposit <br />

@@ -89,7 +89,7 @@ const About = () => {
                 </p>
                 <p>
                   Contact us here. We do not accept unauthorised returns. A fee
-                  of $10(ex GST) and return freight cost will apply where upon
+                  of PKR 2800(ex GST) and return freight cost will apply where upon
                   inspection there is no fault found with the equipment.
                 </p>
               </div>
