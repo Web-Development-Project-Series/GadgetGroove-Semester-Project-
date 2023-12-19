@@ -46,13 +46,11 @@ const Signup = () => {
         },
         () => {
           getDownloadURL(uploadTask.snapshot.ref).then(async (downloadURL) => {
-            // update user profile
             await updateProfile(user, {
               displayName: username,
               photoURL: downloadURL,
             })
 
-            // store user data in firestore database
             await setDoc(doc(db, 'users', user.uid), {
               uid: user.uid,
               displayName: username,
@@ -110,15 +108,6 @@ const Signup = () => {
                       onChange={(e) => setPassword(e.target.value)}
                     />
                   </FormGroup>
-                  {/* <FormGroup className='form__group'>
-                    <label htmlFor='profile'>Choose a profile picture</label>
-                    <input
-                      type='file'
-                      id='profile'
-                      name='profile'
-                      onChange={(e) => setFile(e.target.files[0])}
-                    />
-                  </FormGroup> */}
 
                   <button type='submit' className='buy__btn auth__btn'>
                     Create an Account
